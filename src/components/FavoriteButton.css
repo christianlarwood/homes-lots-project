@@ -1,0 +1,36 @@
+.favoriteButton {
+  position: absolute;
+  display:block;
+  top: 1%;
+  right: 1%;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.favoriteButton:hover {
+  background-color: red;
+}
+
+#false.favoriteButton:hover {
+  background-color: white;
+}
+
+.favoriteButton img {
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+  text-decoration: none !important;
+  border:0px !important;
+  outline:none;
+  border-width: 0px;
+  outline-width:0px;
+  border-bottom: none;
+}
+
+#true.favoriteButton {
+  background-color: red;
+}

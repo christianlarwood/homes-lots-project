@@ -1,0 +1,10 @@
+.homesListContainer {
+  margin: 25px;
+}
+
+.homesList {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 15px;
+}

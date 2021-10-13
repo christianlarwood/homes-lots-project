@@ -1,0 +1,56 @@
+.selectedCardContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.modalImageContainer {
+  width: 50%;
+}
+
+.modalImageContainer img {
+  width: 100%;
+}
+
+.modalInformationContainer {
+  position: relative;
+  width: 50%;
+  padding-left: 20px;
+}
+
+.modalInformationContainer .favoriteButton {
+  position: absolute;
+  display:block;
+  top: 1%;
+  right: 1px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.modalInformationContainer .favoriteButton:hover {
+  background-color: red;
+}
+
+.compatibleOptionsContainer {
+  display: flex;
+  flex-direction: column;
+  /* margin: 0px 25px; */
+}
+
+.compatibleOptionsList {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  margin: 25px;
+}
+
+#compatibleOptionsTitle p {
+  text-align: center;
+  color: #606060;
+  font-size: 32px;
+  padding: 0px;
+}
